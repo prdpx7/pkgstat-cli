@@ -1,5 +1,5 @@
 # pkgstat-cli [![MITlicensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/zuck007/pkgstat-cli/master/LICENSE)
-> search package name availablity and pkg info on npm,pypi and rubygems.
+> search package name availability and pkg info on npm,pypi and rubygems.
 ## Install
 ```
 $ npm install -g pkgstat-cli
