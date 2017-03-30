@@ -35,6 +35,7 @@ function displayMetaData(pkg_name,lang){
 }
 
 program
+    .description('Search pkg name availablity and pkg info on npm,pypi and rubygems')
     .version(pkgversion)
     .option('-s , --search <pkg>','search for pkg name availability in npm,pip and gems')
     .option('--node <pkg_name>','info on node pkg from npm')
