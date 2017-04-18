@@ -1,5 +1,9 @@
-# pkgstat-cli [![Build Status](https://travis-ci.org/zuck007/pkgstat-cli.svg?branch=master)](https://travis-ci.org/zuck007/pkgstat-cli) [![MITlicensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/zuck007/pkgstat-cli/master/LICENSE)
+# pkgstat-cli
+
 > search package name availability and pkg info on npm,pypi and rubygems.
+
+[![Build Status](https://travis-ci.org/zuck007/pkgstat-cli.svg?branch=master)](https://travis-ci.org/zuck007/pkgstat-cli) 
+[![MITlicensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/zuck007/pkgstat-cli/master/LICENSE)
 
 ## Install
 ```
