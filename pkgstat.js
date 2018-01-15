@@ -17,6 +17,7 @@ function isTaken (pkgName, lang) {
 function displayMetaData (pkgName, lang) {
   pkgstat(pkgName, lang)
         .then(resp => {
+          console.log('------------------')
           if (resp.statusCode === 404) {
             console.log(pkgName, 'pkg name is', availability(lang, 404))
           } else if (resp.statusCode === 200) {
@@ -55,6 +56,11 @@ if (program.search) {
 } else if (program.python) {
   pkgName = program.python
   displayMetaData(pkgName, 'python')
+} else if (program.args.length > 0) {
+  var name = program.args.join(' ')
+  displayMetaData(name, 'node')
+  displayMetaData(name, 'ruby')
+  displayMetaData(name, 'python')
 } else {
   console.log('see `pkgstat --help` for more info')
 }
