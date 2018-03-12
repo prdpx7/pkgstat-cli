@@ -25,11 +25,13 @@ function displayMetaData (pkgName, lang) {
               chalk.green('Name ') + chalk.bold(resp.name),
               chalk.green('Author ') + chalk.bold(resp.author),
               chalk.green('Description ') + chalk.bold(resp.description),
+              chalk.green('Total Downloads in Last 30 Days ' + chalk.bold(resp.totalDownloadsLastMonth || 'NA')),
               chalk.green('URL ') + chalk.bold(resp.url),
               chalk.green('Homepage ') + chalk.bold(resp.source),
               chalk.green('License ') + chalk.bold(resp.license),
               chalk.green('Version ') + chalk.bold(resp.version)
             ]
+
             console.log(output.join('\n'))
           }
         })
