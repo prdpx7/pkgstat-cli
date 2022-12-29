@@ -21,7 +21,7 @@
     "pkgstat": "^1.2.4"
   },
   "devDependencies": {
-    "ava": "^0.18.2",
+    "ava": "^5.1.0",
     "standard": "^10.0.2"
   }
 }
